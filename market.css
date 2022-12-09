@@ -1,0 +1,62 @@
+html * {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: -webkit-radial-gradient(ellipse farthest-corner at center top, #e5d9b6 0%, #d1eba7 100%);
+  background: radial-gradient(ellipse farthest-corner at center top, #e5d9b6 0%, #d9f0b3 100%);
+}
+
+/* Bootstrap tweaks */
+.card-img-top {
+  width: 100%;
+  height: 16em;
+  object-fit: cover;
+}
+
+.list-group-horizontal > .list-group-item {
+  border: none;
+}
+
+#info-modal-img {
+  width: 100%;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.spacing {
+  height: 1.5em;
+}
+
+.bid {
+  background-color: #285430;
+}
+
+.bid:hover {
+  background-color: blanchedalmond;
+  outline: none !important;
+}
+
+.info {
+  background-color: rgb(164, 190, 123);
+}
+
+.navmod {
+  background-color: #285430 !important;
+}
+
+.roundy {
+  border-radius: 20%;
+}
+
+.navlink {
+  color: white;
+  text-decoration: none;
+  padding: 0.6em;
+}
+
+.navlink:hover {
+  color:rgb(164, 190, 123);
+}
