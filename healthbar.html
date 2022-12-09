@@ -1,0 +1,20 @@
+<html>
+<head>
+<script src="./public/js/pingpoliCircleProgressBar.js"></script>
+<script>
+    let xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", "http://blynk-cloud.com/3CehiptEuc_MZkACHLVquxu0IbbAZYJF/get/V2", false ); // false for synchronous request
+    xmlHttp.send(null);
+    let a = xmlHttp.responseText;
+    let x = (parseInt(a.substring(2,a.length-2)));
+    x = (x < 750) ? 0.85 : 0.5;
+    console.log(x);
+</script>
+</head>
+<body onload="init(x)">
+<div>
+    <canvas class="pos" id="canvas" width="100" height="100" style="touch-action: none;"></canvas>
+</div>
+<div></div>
+</body>
+</html>
